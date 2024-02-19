@@ -51,5 +51,14 @@ namespace Exercice01
             entryNumber.Text = string.Empty;
         }
 
+
+        private void OnRestartClicked(object sender, EventArgs e)
+        {
+            InitializeGame();
+            lblResult.IsVisible = false;
+            btnRestart.IsVisible = false;
+            entryNumber.Text = string.Empty;
+        }
+
     }
 }
