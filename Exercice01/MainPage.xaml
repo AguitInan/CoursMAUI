@@ -1,0 +1,37 @@
+﻿<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Exercice01.MainPage">
+
+    <VerticalStackLayout
+    Spacing="25"
+    Padding="30"
+    VerticalOptions="Center">
+
+        <Label
+        x:Name="lblInstructions"
+        Text="Devinez le nombre mystère entre 1 et 100."
+        HorizontalOptions="Center"/>
+
+        <Entry
+        x:Name="entryNumber"
+        Placeholder="Entrez votre nombre"
+        Keyboard="Numeric"
+        Completed="OnCheckNumberClicked"/>
+
+        <Button
+        Text="Vérifier"
+        Clicked="OnCheckNumberClicked"/>
+
+        <Label
+        x:Name="lblResult"
+        HorizontalOptions="Center"
+        IsVisible="False"/>
+
+        <Button
+        x:Name="btnRestart"
+        Text="Recommencer"
+        Clicked="OnRestartClicked"
+        IsVisible="False"/>
+    </VerticalStackLayout>
+
+</ContentPage>
