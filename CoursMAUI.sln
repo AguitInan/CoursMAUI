@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34607.119
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DemosMAUI", "DemosMAUI\DemosMAUI.csproj", "{5D82D34E-E29F-42B1-9D1B-A0013D0F7FEE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercice01", "Exercice01\Exercice01.csproj", "{BB876F82-DA53-42A2-9A52-BC2C5491A409}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5D82D34E-E29F-42B1-9D1B-A0013D0F7FEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D82D34E-E29F-42B1-9D1B-A0013D0F7FEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D82D34E-E29F-42B1-9D1B-A0013D0F7FEE}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{5D82D34E-E29F-42B1-9D1B-A0013D0F7FEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D82D34E-E29F-42B1-9D1B-A0013D0F7FEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D82D34E-E29F-42B1-9D1B-A0013D0F7FEE}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{BB876F82-DA53-42A2-9A52-BC2C5491A409}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB876F82-DA53-42A2-9A52-BC2C5491A409}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB876F82-DA53-42A2-9A52-BC2C5491A409}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{BB876F82-DA53-42A2-9A52-BC2C5491A409}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB876F82-DA53-42A2-9A52-BC2C5491A409}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB876F82-DA53-42A2-9A52-BC2C5491A409}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ADB69BEA-5B6E-4983-9F82-1779DC99EC40}
+	EndGlobalSection
+EndGlobal
