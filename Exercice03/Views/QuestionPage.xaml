@@ -1,0 +1,11 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Exercice03.Views.QuestionPage">
+    <ScrollView>
+        <VerticalStackLayout Spacing="25" Padding="30">
+            <Label x:Name="QuestionLabel" Text="Question" FontSize="Medium"/>
+            <StackLayout x:Name="OptionsStackLayout">
+            </StackLayout>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
